@@ -1,0 +1,27 @@
+{
+  "name": "r-tidyverse-skills",
+  "owner": {
+    "name": "jeremy-allen"
+  },
+  "metadata": {
+    "description": "Claude agent skills for R's tidyverse ecosystem",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "r-tidyverse-skills",
+      "description": "Collection of R and tidyverse skills covering modern tidyverse patterns, package development, OOP design, metaprogramming with rlang, vctrs custom vectors, performance optimization, and Posit news delivery",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./writing-tidyverse-r",
+        "./developing-packages-r",
+        "./designing-oop-r",
+        "./metaprogramming-rlang",
+        "./customizing-vectors-r",
+        "./optimizing-r",
+        "./deliver-posit-news"
+      ]
+    }
+  ]
+}
